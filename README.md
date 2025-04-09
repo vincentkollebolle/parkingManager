@@ -1,45 +1,53 @@
 # Parking Manager
 
-![starterKit1](starterKit1/docs/images/starterKit1.png)
-![starterKit2](starterKit2/docs/images/starterKit2.png)
+![Parking simple](docs/images/parking_simple.png)
+![Parking complexe](docs/images/parking_complex.png)
 
-Parking Manager est un ensemble de TP (travaux pratiques) déstiné à illustrer les grands design pattern de la POO (programmation orientée objets) par la création d'une simulation de parking permetant de simuler la gestion d'un parking avec des véhicules de différents types (voitures, motos, camions), différents type de place, différents types de tarrif. 
+Parking Manager est un projet pédagogique. Il est pensé comme un skate-park pour programmeur/programmeuses afin de pouvoir découvrir, faire ou créer des TP (travaux pratiques) déstinés à illustrer la P.O.O (programmation orientée objets) et les grands design pattern de celle-ci 
+
+L'univers proposé est celui d'un logiciel de gestion de parking avec des véhicules de différents types (voitures, motos, camions), différents type de place, différents types de tarifs etc... dans l'esprits des jeux vidéos de gestion type Theme Hospital™, Roller coaster tycoon ou autre.  
 
 
 ## Présentation
 
-Votre équipe de développement a été missionnée pour concevoir 
-un logiciel de gestion d’un parking moderne. Ce parking doit pouvoir accueillir différents types de véhicules et offrir 
-plusieurs services aux clients.
+Bravo ! Votre équipe de développement a remporté l'appel d'offre 🎯
+Un tout nouveau cahier des charges vous attend !
+
+Notre parking doit accueillir plein de types d’usagé.e.s !
+Certain.e.s veulent se garer longtemps, d’autres juste un petit moment.
+
+Il faut aussi gérer l’argent récolté, le parking doit être inclusif : des places réservées aux personnes en situation de handicap, des tarifs préférentiels pour les abonné.e.s... 💸
+
+Attention, de nouveaux usagé.e.s inattendu.e.s débarquent aussi : des chevaux (!), et même un énorme cochon tirelire vous observe depuis le centre du parking, juste à côté de la grande horloge fraîchement installée. 🐴🐖⏰
+
+Bref, préparez-vous : de nouveaux défis vous attendent !
+
+## Objectifs 
 
 Votre objectif est de coder une version fonctionnelle. 
 Vous êtes libres de structurer votre code comme vous voulez, 
 mais attention : au fur et à mesure que le projet évoluera, 
 de nouvelles contraintes et fonctionnalités seront ajoutées.
 
-Deux kits de démarrage vous sont proposés :
-
-- **StarterKit 1** : [StarterKit débutant](starterKit1/README.md)
-- **StarterKit 2** : [StarterKit avancé](starterKit2/README.md)
-
-
-## Documentation
-
-Pour plus d'informations sur les exercices du projet, consultez la documentation dans les sous-dossiers `docs` de chaque starter kit.
-
 ## Installation
 
 1. Clonez le projet : 
 `git clone https://github.com/vincentkollebolle/parkingManager.git`
 
-2. Accédez au répertoire du starter kit de votre choix :
-   - `cd starterKit1`
-   - `cd starterKit2`
+2. Accédez au répertoire 
 
 3. Commencez à coder !
 
+## Exercices 
+
+Les exercices vous attendent ici :  
+[[docs/exercices/index.md]].
 
 ## Information & Contact
 
 Vincent BONNIER
 bonnier.vincentpro@gmail.com 
+
+
+
+
