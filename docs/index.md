@@ -8,7 +8,7 @@ La Route délègue au véhicule le fait d’interagir avec le parking
 Génère des véhicules et les envoie vers le parking.
 
 **Exercices en lien** :
-➡️ [Factory](docs/exercices/Factory.md)
+- ➡️ [Factory](exercices/Factory.md)
 
 ## Une classe Parking
 - Le parking contient N places (paramétrable).
@@ -19,10 +19,11 @@ Génère des véhicules et les envoie vers le parking.
 - private array $places = []; // Array of Place[]
 - private Tirelire $tirelire;
 
-**Exercices en lien** 
-- 💡 [[Stratégie]] : Ajouter une classe Pricing permettant de gérer des politique de prix en fonction du jour, de la nuit, des maccarons ... etc...
-- 💡[[Iterator]] : Ajouter un iterator pour garer les véhicules.
-- 💡[[Builder]] : Ajouter un builder pour construire le parking.
+**Exercices en lien**
+- ➡️ [Stratégie](exercices/Strategy.md)
+- ➡️ [Iterator](exercices/Iterator.md)
+- ➡️ [Builder](exercices/Builder.md) 
+
 
 ## Une classe Vehicle
 - Le parking accepte des voitures, des motos et des camions.
@@ -31,9 +32,9 @@ Génère des véhicules et les envoie vers le parking.
 - $size: la taille du véhicule (1 = moto, 2= voiture, 3= camion)
 
 **Exercices en lien** 
-➡️ [Factory](docs/exercices/Factory.md)
-➡️ [Adapter](docs/exercices/Adapter.md)
-➡️ [Decorator](docs/exercices/Decorator.md)
+- ➡️ [Factory](exercices/Factory.md)
+- ➡️ [Adapter](exercices/Adapter.md)
+- ➡️ [Decorator](exercices/Decorator.md)
 - 💡 Car, Truck, Motorcycle extends Vehicle
 - 💡 Template Method
 - 💡 Design pattern State
@@ -48,8 +49,8 @@ Gère les cycles d'itérations.
 Fait juste passer le temps (tick)
 
 **Exercices en lien** 
-➡️ [Singleton](docs/exercices/Singleton.md)
-➡️ [Observer](docs/exercices/Observer.md)
+- ➡️ [Singleton](exercices/Singleton.md)
+- ➡️ [Observer](exercices/Observer.md)
 
 ## Tirelire	
 Stocke l'argent payé par les véhicules quand ils partent.
@@ -59,12 +60,12 @@ Elle est impactée par le départ d'un véhicule.
 Tirelire est alimentée seulement à la libération d’une Place.
 
 **Exercices en lien** 
-➡️ [Singleton](docs/exercices/Singleton.md)
+- ➡️ [Singleton](exercices/Singleton.md)
 
 ## Dashboard
 
 **Exercices en lien** 
-➡️ [Facade](docs/exercices/Facade.md)
+- ➡️ [Facade](exercices/Facade.md)
 
 ## main
 Grande boucle qui démarre l'application.
