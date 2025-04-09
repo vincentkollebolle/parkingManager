@@ -38,6 +38,12 @@ de nouvelles contraintes et fonctionnalités seront ajoutées.
 
 3. Commencez à coder !
 
+## Notes d'organisation
+
+Les branches de se repository sont utilisés pour les différents projets : - La branche main contient le starter-kit et les exercices.
+- La branche fonctionnelle contient le code fonctionnelle (todo)
+- La branche solution contient la solution des exercices (todo)
+
 ## Exercices 
 
 Les exercices vous attendent ici :  
