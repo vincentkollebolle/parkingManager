@@ -17,7 +17,7 @@ de nouvelles contraintes et fonctionnalités seront ajoutées.
 ##  La route (Road)
 La Route délègue au véhicule le fait d’interagir avec le parking
 
-** Design pattern à implémenter** :
+**Design pattern à implémenter** :
 - 💡 Factory 
 
 ## Une classe Parking
@@ -25,14 +25,14 @@ La Route délègue au véhicule le fait d’interagir avec le parking
 - Chaque place peut être libre ou occupée.
 - Un véhicule ne peut se garer que si une place est libre.
 
-** Design pattern à implémenter** :
+**Design pattern à implémenter** :
 💡 Singleton
 
 ## Une classe Vehicle
 - Le parking accepte des voitures, des motos et des camions.
 - Certains véhicules (ex. : camions) occupent plusieurs places.
 
-** Design pattern à implémenter** :
+**Design pattern à implémenter** :
 - 💡 Car, Truck, Motorcycle extends Vehicle
 - 💡 Factory Method
 - 💡 Template Method
