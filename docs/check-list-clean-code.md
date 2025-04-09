@@ -1,4 +1,4 @@
-#design-pattern 
+# Annexe - Check List Clean Code 
 
 Voici un résumé des principales idées du livre « [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.decitre.fr/livres/clean-code-9780132350884.html) » de Robert C. Martin (Uncle Bob).
 
