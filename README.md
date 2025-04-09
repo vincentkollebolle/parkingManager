@@ -47,7 +47,7 @@ Les branches de se repository sont utilisés pour les différents projets : - La
 ## Exercices 
 
 Les exercices vous attendent ici : 
-[Exercices](docs/exercices/index.md)
+[Exercices](docs/index.md)
 
 ## Information & Contact
 
