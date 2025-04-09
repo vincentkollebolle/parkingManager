@@ -1,6 +1,6 @@
 # Starter Kit 1
 
-![starterKit1](starterKit1/docs/images/starterKit1.png)
+![starterKit1](docs/images/starterKit1.png)
 
 ## Contexte
 

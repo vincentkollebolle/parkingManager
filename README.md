@@ -1,6 +1,7 @@
 # Parking Manager
 
 ![starterKit1](starterKit1/docs/images/starterKit1.png)
+![starterKit2](starterKit2/docs/images/starterKit2.png)
 
 Parking Manager est un ensemble de TP (travaux pratiques) déstiné à illustrer les grands design pattern de la POO (programmation orientée objets) par la création d'une simulation de parking permetant de simuler la gestion d'un parking avec des véhicules de différents types (voitures, motos, camions), différents type de place, différents types de tarrif. 
 
