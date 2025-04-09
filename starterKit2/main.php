@@ -1,6 +1,5 @@
 <?php
 $parking = new Parking(10); 
-$tirelire = new Tirelire();
 $road = new Road($parking);
 $clock = new Clock();
 $dashboard = new Dashboard(...);

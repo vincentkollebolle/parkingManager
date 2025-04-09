@@ -4,9 +4,10 @@ class Parking
     private array $places = []; // Array of Place[]
     private Tirelire $tirelire;
 
-    public function __construct(int $numberOfPlaces,Tirelire $tirelire)
+    public function __construct(int $numberOfPlaces)
     {
-        //...
+        //créer nombre de places...
+        //instancie la Tirelire ...
     }
 
 
