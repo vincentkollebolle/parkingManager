@@ -1,37 +1,23 @@
 <?php
-class Place implements ClockObserver
+abstract class Place implements ClockObserver
 {
-    private ?Vehicle $vehicle = null;
-    private int $basePrice;
-    private int $maxSize;
-    private Parking $parking; // Référence au Parking pour payer
+    protected ?Vehicle $vehicle = null;
+    protected int $basePrice;
+    protected int $maxSize;
+    protected Parking $parking;
 
-
-	public function __construct(int $basePrice, int $maxSize, Parking $parking)
+    public function __construct(int $basePrice, int $maxSize, Parking $parking)
     {
-        //...
-    }
-    
-    public function isAvailable(): bool
-    {
-        //...
+        $this->basePrice = $basePrice;
+        $this->maxSize = $maxSize;
+        $this->parking = $parking;
     }
 
-    public function parkVehicle(Vehicle $vehicle): bool
-    {
-        //...
-    }
+    abstract public function isAvailable(): bool;
 
-	public function releaseVehicle() {
-		//Fait payer la personne puis...
-		//libère la place ...
-	}
-    
-    public function onTick(): void
-    {
-        //Demande au vehicule de "veillir"
-        //Si il y'a une voiture on lui decrease sont remainingTime...
-        //Si elle a fini sa pause on la fait partir...
-    }
+    abstract public function parkVehicle(Vehicle $vehicle): bool;
 
+    abstract public function releaseVehicle(): void;
+
+    abstract public function onTick(): void;
 }

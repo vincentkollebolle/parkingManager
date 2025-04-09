@@ -1,7 +1,7 @@
 ## 🐴 Exercice : Intégrer un cheval dans le parking (Adaptateur)
 
 Problème un cheval se présente à l'entrée du Parking. 
-Le directeur est formel pas de discrimination, il doit pouvoir se reposer chez nous ! 
+Il s'agit d'un Cheval utiliser dans une application de gestion de centre équestre (Third-party). Le directeur est formel pas de discrimination, il doit pouvoir se reposer chez nous ! 
 Vous devez trouver un moyen d'utiliser ce Cheval dans votre Parking. 
 Et pour cela utiliser le design pattern [[Adapter]]. 
 

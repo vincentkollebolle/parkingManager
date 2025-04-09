@@ -1,0 +1,1 @@
+Ajouter une facade au dashboard pour pouvoir changer l'affichage.
