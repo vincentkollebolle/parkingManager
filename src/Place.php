@@ -6,7 +6,10 @@ abstract class Place implements ClockObserver
     protected int $maxSize;
     protected Parking $parking;
 
-    public function __construct(int $basePrice, int $maxSize, Parking $parking)
+    public function __construct(
+        int $basePrice, 
+        int $maxSize, 
+        Parking $parking)
     {
         $this->basePrice = $basePrice;
         $this->maxSize = $maxSize;

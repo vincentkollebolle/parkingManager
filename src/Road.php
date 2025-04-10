@@ -1,4 +1,5 @@
 <?php
+
 class Road
 {
     private $parking;
@@ -10,7 +11,7 @@ class Road
 
     public function vehicleArrives()
     {
-        //1. créer un véhicule $vehicle
-        //2. essayer de le garer $vehicle->tryToPark($this->parking)
+        $vehicle = new Vehicle(); 
+        $vehicle->tryToPark($this->parking);
     }
 }

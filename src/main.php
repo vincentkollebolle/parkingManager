@@ -1,11 +1,19 @@
 <?php
+require_once "Parking.php";
+require_once "Road.php";
+require_once "Dashboard.php";
+require_once "Vehicle.php";
+//include "Clock.php";
+
 $parking = new Parking(10); 
 $road = new Road($parking);
-$clock = new Clock();
-$dashboard = new Dashboard(...);
+$dashboard = new Dashboard();
+//$clock = new Clock();
 
 for ($i = 0; $i < 100; $i++) {
-    $clock->tick();
-	$dashboard->update();
+    $dashboard->update();
+    //$clock->tick();
 }
+
+
 ?>

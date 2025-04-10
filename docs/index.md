@@ -9,6 +9,7 @@ Génère des véhicules et les envoie vers le parking.
 
 **Exercices en lien** :
 - ➡️ [Factory](exercices/Factory.md)
+- ➡️ [Mediator](exercices/Mediator.md)
 
 ## Une classe Parking
 - Le parking contient N places (paramétrable).
@@ -43,6 +44,11 @@ Génère des véhicules et les envoie vers le parking.
 Gère son Véhicule et décide s’il part
 Peut accepter certains types de véhicules selon leur taille. 
 A un prix de base.
+
+## PriceCalculator
+Classe à laquelle on delègue le calcul des prix ! 
+- ➡️ [Strategy](exercices/Strategy.md)
+
  
 ## Clock 
 Gère les cycles d'itérations.
@@ -63,6 +69,7 @@ Tirelire est alimentée seulement à la libération d’une Place.
 - ➡️ [Singleton](exercices/Singleton.md)
 
 ## Dashboard
+Le dashboard affiche les informations à propos de la simulation: 
 
 **Exercices en lien** 
 - ➡️ [Facade](exercices/Facade.md)
